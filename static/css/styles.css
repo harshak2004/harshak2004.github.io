@@ -35,7 +35,7 @@ header {
 }
 
 .background {
-    background-image: url('https://cdn.pixabay.com/photo/2016/11/19/17/42/hacker-1839879_960_720.jpg');
+    background-image: url('static/images/back.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -53,13 +53,13 @@ header {
     min-height: calc(100vh - 70px);
 }
 
-.container input{
+.container input {
     position: relative;
     top: 90px;
     width: 200px;
 }
 
-.container button{
+.container button {
     position: relative;
     top: 90px;
     height: 23px;
@@ -98,7 +98,6 @@ header {
     width: 400px;
 }
 
-
 .heatmap {
     margin-top: 40px;
 }
@@ -116,19 +115,17 @@ footer {
     bottom: 0;
     width: 100%;
 }
-.predcointainer{
+
+.predcointainer {
     position: relative;
     left: 250px;
 }
 
-.safe{
+.safe {
     position: relative;
     left: -19px;
 }
-.background {
-    background-image: url("{{ url_for('static', filename='images/precision.png') }}");
-}
 
-.pred{
+.pred {
     text-decoration: underline;
 }
